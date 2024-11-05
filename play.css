@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/wodden\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    user-select: none;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 8vh;
+    width: 20vw;
+    margin-left: 40vw;
+    margin-top: 7px;
+    background-color: rgba(130, 22, 22, 0.927);
+    border-radius: 20px;
+}
+#score{
+    font-weight: bolder;
+    font-size: 4.5vh;
+    color: yellow;
+    cursor: pointer;
+    text-align: center;
+}
+ #game-area {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.fruit {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    user-select: none;
+    transition: top 0.1s; 
+}
+.cutFruits{
+    height: 150px;
+    width: 150px;
+}
+.cut {
+    font-size: 50px; 
+    transition: opacity 1s;
+    opacity: 0.8;
+}
+.bomb {
+    position: absolute;
+    width: 160px; 
+    height: 130px; 
+}
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: rgb(243, 237, 237);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+  }
+@media (max-width: 900px) {
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width:70vw;
+    margin-left: 12vw;
+    background-color: rgba(130, 22, 22, 0.927);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+#score{
+    font-weight: bolder;
+    font-size: 2.5vh;
+    color: yellow;
+    cursor: pointer;
+
+}
+#game-area {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+.fruit {
+    width: 80px;
+    height: 80px;
+}
+.bomb {
+    width: 80px; 
+    height: 80px; 
+}
+}
+
+
+
+
+
+
+
+

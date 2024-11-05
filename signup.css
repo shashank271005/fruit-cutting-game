@@ -1,0 +1,67 @@
+
+body{
+    background-image: url(img/loginbackground.png);
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+#siginup{
+    background-color: transparent;
+height: 500px;
+width: 600px;
+margin-top: 150px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+#siginup h2{
+    text-align: center;
+    color: yellow;
+    font-size:30px;
+}
+#siginup input{
+    margin-top: 10px;
+    background-image: url(img/inputbackground.png);
+    background-color: transparent;
+    background-size: cover;
+    height: 60px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    font-size: 30px;
+    color: yellow;
+    font-weight: 600;
+    opacity: 0.6;
+    cursor: pointer;
+    text-align: center;
+    height: 70px;
+}
+input::placeholder{
+    color: orangered;
+}
+#siginup  button{
+    margin-top: 10px;
+    background-image: url(img/enter\ button.png);
+    background-size: cover;
+    background-color: transparent;
+    height: 60px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    font-size: 30px;
+    color: orangered;
+    font-weight: 600;
+    opacity: 0.6;
+    cursor: pointer;
+    height: 70px;
+}
+#siginup button :hover{
+    box-shadow: 10px black;
+}
+#message{
+    margin-top: 20px;
+    color: yellowgreen;
+}

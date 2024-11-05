@@ -1,0 +1,145 @@
+body{
+    background-image: url(img/wodden\ background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+.fru{
+    height: 60px;
+    width: 20vw;;
+   background-color: rgba(130, 22, 22,0.927);
+    border-radius: 30px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.fru .info{
+   
+    height: 60px;
+    width: 300px;
+}
+.fru .info h1{
+    color: yellow;
+    font-size:4.5vh;
+    font-weight: 700px;
+    margin-left: 50px;
+    margin: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+#final-score{
+    color: yellow;
+    font-size:4.5vh;
+    font-weight: 700;
+    margin-left: 50px;
+    margin: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+#btn{
+  
+    height: 350px;
+    width: 100%;
+   margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#btn a button{
+    background-image: url(img/play\ setting\ button\ background.png);
+    background-size: cover;
+    background-color: transparent;
+    height:70px;
+    width: 320px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: cursive;
+    cursor: pointer;
+}
+#main{
+    height: 500px;
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#main .info{
+    height: 250px;
+}
+#main .info H1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    color: yellow;
+    font-size: 130px;
+    font-weight: 1500;
+    animation: scale-in-out 2s infinite ease-in-out;
+}
+
+@keyframes scale-in-out {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+#main .button{
+    height: 250px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+#main .button a button{
+    background-image: url(img/play\ setting\ button\ background.png);
+    background-size: cover;
+    border-radius: 20px;
+    background-color: transparent;
+    height:70px;
+    width: 320px;
+    border: none;
+    color:yellow;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .fru{
+        width: 70vw;
+    width:70vw;
+    }
+    body{
+        background-size: cover;
+    }
+    #main .info H1{
+    font-size: 80px;
+    }
+    #main .button a button{
+        font-size: 20px;
+        width: 120px;
+    }
+    
+}
+@media (max-width: 350px) {
+    .fru{
+        width: 70vw;
+    width:70vw;
+    }
+    #main .button a button{
+        font-size: 20px;
+        width: 120px;
+    }
+    
+}
+

@@ -1,0 +1,253 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/setting\ page\ background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.setting {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    cursor: pointer;
+}
+#sound{
+    margin: 5vh 0vh 4vh 0vh;
+    width: 14vw;
+    height: 7vh;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(135deg, rgba(60, 5, 5, 0.927),  rgba(194, 27, 27, 0.927));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s ease;
+    animation: scale-in-out 3s infinite ease-in-out;
+    cursor: pointer;
+}
+#music{
+    width: 14vw;
+    margin-bottom: 4vh;
+    height: 7vh;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(135deg,  rgba(60, 5, 5, 0.927), rgba(194, 27, 27, 0.927));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: scale-in-out 3s infinite ease-in-out;
+    cursor: pointer;
+}
+#about{
+    width: 14vw;
+    margin-bottom: 4vh;
+    height: 7vh;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(135deg,  rgba(60, 5, 5, 0.927), rgba(194, 27, 27, 0.927));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: scale-in-out 3s infinite ease-in-out;
+    cursor: pointer;
+}
+#back{
+    width: 14vw;
+    margin-bottom: 4vh;
+    height: 7vh;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(135deg,  rgba(60, 5, 5, 0.927), rgba(194, 27, 27, 0.927));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: scale-in-out 3s infinite ease-in-out;
+    cursor: pointer;
+}
+@keyframes scale-in-out {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    } 
+}
+.fruits{
+    height: 0vh;
+    width: 100vw;
+
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+ .kiwi{
+    height: 12vh;
+    margin-left: 40vw;
+    animation-name: sanimationkiwi;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.pear{
+    height: 20vh;
+    margin-left: 20vw;
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.orange{
+    height: 20vh;
+    margin-left: 4vw;
+    display: block;
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.watermelon{
+    height: 20vh;
+    margin-left: 15vw;
+    margin-top: 25vh;
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.strawberry{
+    height: 20vh;
+    margin-left: 60vw;
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sanimation{
+    from{
+        height: 20vh;
+        width: 20vh;
+    }
+    to{
+        height: 21vh;
+        width: 21vh;
+    }
+}
+@keyframes sanimationkiwi{
+    from{
+        height: 12vh;
+        width: 12vh;
+    }
+    to{
+        height: 13vh;
+        width: 13vh;
+    }
+}
+@media (max-width: 900px) {
+    .orange{
+        height: 15vh;
+        margin-left: 40vw;
+        animation-name: sanimation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes sanimation{
+        from{
+            height:15vh;
+            width: 15vh;
+        }
+        to{
+            height: 16vh;
+            width: 16vh;
+        }
+    }
+    @keyframes sanimationkiwi{
+        from{
+            height: 8vh;
+            width: 8vh;
+        }
+        to{
+            height: 9vh;
+            width: 9vh;
+        }
+    }
+
+    .pear{
+        height: 15vh;
+        margin-left: 20vw;
+        animation-name: sanimation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .kiwi{
+        height: 8vh;
+        margin-left: 4vw;
+        display: block;
+        animation-name: sanimationkiwi;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .watermelon{
+        height: 15vh;
+        margin-left: 15vw;
+        margin-top: 25vh;
+        animation-name: sanimation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .strawberry{
+        height: 15vh;
+        margin-left: 60vw;
+        animation-name: sanimation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    } 
+    #sound, #about, #music, #back{
+        width: 30vw;
+        height: 6vh;
+        font-size: 3vh;
+
+    }
+}
+

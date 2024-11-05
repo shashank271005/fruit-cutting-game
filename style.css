@@ -1,0 +1,284 @@
+body{
+    background-image: url("img/360_F_758592954_8AUdaTSV1dxOynzrDaDRPm3Szt6E97ao.jpg");
+    background-size: cover;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-direction: row;
+}
+#signin{
+    background-image: url("img/loginbackground.png");
+    background-size: cover;
+    height: 737px;
+    width: 430px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#signin h1{
+    margin-top: 30px;
+    color: yellow;
+    font-weight: 900;
+    font-size: 50px;
+   
+}
+#signin  input{
+    margin-top: 10px;
+    background-image: url(img/inputbackground.png);
+    background-color: transparent;
+    background-size: cover;
+    height: 60px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    font-size: 30px;
+    color: yellow;
+    font-weight: 600;
+    opacity: 0.6;
+    cursor: pointer;
+    text-align: center;
+    height: 70px;
+}
+input::placeholder{
+    color: orangered;
+}
+#signin  button{
+    margin-top: 10px;
+    background-image: url(img/enter\ button.png);
+    background-size: cover;
+    background-color: transparent;
+    height: 60px;
+    width: 300px;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    font-size: 30px;
+    color: orangered;
+    font-weight: 600;
+    opacity: 0.6;
+    cursor: pointer;
+    height: 70px;
+}
+#signin button :hover{
+    box-shadow: 10px black;
+}
+form{
+    margin-left: 60px;
+}
+#signin .btn{
+    margin-top: 40px;
+}
+#signin .btn img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#signin .btn h4{
+    color: orangered;
+    font-size: 21px;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 0;
+}
+#signin h3{
+    color: orangered;
+    margin-top: 20px;
+    font-size: 21px;
+    opacity: 0.7;
+}
+#signin a h2{
+    margin-top: 0;
+ color: yellow;
+    cursor: pointer;
+   
+}
+#signin a{
+    text-decoration: double;
+}
+#hero{
+   
+    height: 680px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+ .fruits{
+        height: 100px;
+    width: 100px;
+
+} 
+#hero .fru1{
+    width: 100%;
+    height: 70px;
+   
+    
+}
+#hero .fru1 .f1{
+    height: 70px;
+    width: 70px;
+  
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+
+@keyframes sanimation{
+    from{
+        height: 100px;
+        width: 100px;
+    }
+    to{
+        height: 120px;
+        width: 120px;
+    }
+}
+#hero .fru1 .f2{
+    height: 70px;
+    width: 70px;
+    
+}
+#hero .fru1 .f3{
+    height: 300px;
+    width: 300px;
+   margin-left: 350px;
+   margin-top: 50px;
+}
+
+
+#hero .fru2{
+    width: 100%;
+    height: 70px;
+}
+#hero .fru2 .f1{
+    height: 70px;
+    width: 70px;
+    margin-left: 800px;
+    margin-top: 10px;
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#hero .fru2 .f2{
+    height: 70px;
+    width: 70px; 
+}
+#hero .fru3{
+    width: 100%;
+    height: 70px;
+}
+#hero .fru3 .f1{
+    height: 70px;
+    width: 70px;
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+#hero .fru3 .f2{
+    height: 70px;
+    width: 70px;
+   margin-left: 500px;
+  
+    
+    
+}
+#hero .fru3 .f3{
+    height: 300px;
+    width: 300px;
+   margin-left: 270px;
+  
+    
+}
+#hero .fru4{
+    width: 100%;
+    height: 70px;
+    
+    
+}
+#hero .fru4 .f1{
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;   
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+#hero .fru4 .f2{
+    height: 70px;
+    width: 70px;
+    margin-left: 500px;   
+    
+    
+}
+#hero .fru5{
+    width: 100%;
+    height: 70px;
+   
+    
+}
+#hero .fru5 .f1{
+    height: 120px;
+    width: 100px;
+    margin-left: 60px;   
+    animation-name: sanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 300px;  
+    
+}
+#hero .fru5 .f2{
+    height: 70px;
+    width: 70px;
+   margin-left: 650px;
+   margin-bottom: 150px;
+   
+    
+    
+}
+#hero .avtar img{
+    width: 70%;
+    height: 400px;
+    margin-left: 150px;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+@keyframes aanimation{
+    from{
+        width: 70%;
+    height: 400px;
+    }
+    to{
+        width: 71%;
+        height: 409px;
+    }
+}
+.avtar{
+    margin: 0;
+    padding: 0;
+   
+}
+#message{
+    margin-top: 20px;
+    color: yellowgreen;
+}
+
+
