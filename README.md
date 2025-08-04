@@ -1,0 +1,1 @@
+The Fruit Cutting Game is a fun and interactive game built primarily using JavaScript, along with HTML & CSS. Inspired by the classic fruit-slicing mechanics, the game challenges players to slice as many fruits as possible while avoiding bombs.
